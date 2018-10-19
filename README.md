@@ -28,7 +28,7 @@ Step 2:- Now run the arp-spoofer  with the below command
 
 $ python3 arp_spoofer.py --gateway  ap_ip --target victim_ip
 
-![](/images/spoof.png)
+![](/images/spoofy.png)
 
 Step 3: Run the sslstrip with the below command
 
