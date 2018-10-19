@@ -2,7 +2,7 @@
 
 This is tool can poison the Arp tables of the victim as well as router and sniff all the credentials of the victim.It works with both HTTP and HTTPS but not with HSTS.
 
-Here I am going to import scapy module which is not inbuit for python3 so you have to install it manually by the following command:-
+Here I am going to import scapy module which is not inbuit in python3 so you have to install it manually by the following command:-
 
 $ pip3 install scapy-python3
 
