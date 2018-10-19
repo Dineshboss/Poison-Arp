@@ -2,6 +2,21 @@
 
 This is tool can poison the Arp tables of the victim as well as router and sniff all the credentials of the victim.It works with both HTTP and HTTPS but not with HSTS.
 
+Here I am using a going to import scapy module which is not inbuit for python3 so you have to install it manually by the following command:-
+
+$ pip3 install scapy-python3
+
+or 
+
+$ apt-get install scapy-python3
+
+or
+    
+    $ git clone https://github.com/phaethon/scapy
+    $ cd scapy
+    $ sudo python3 setup.py install
+    
+    
 Step 1:- Allow traffic to pass through the Hacker machine with the below command 
 
 $ echo 1 > /proc/sys/net/ipv4/ip_forward
