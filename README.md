@@ -1,6 +1,6 @@
 # Poison-Arp
 
-This is tool can poison the Arp table of the victim as well as router and sniff all the credentials of the victim.It works with HTTP as well as HTTPS but not with HSTS.
+This is tool can poison the Arp tables of the victim as well as router and sniff all the credentials of the victim.It works with both HTTP and HTTPS but not with HSTS.
 
 Step 1:- Allow traffic to pass through the Hacker machine with the below command 
 
