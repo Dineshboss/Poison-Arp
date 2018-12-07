@@ -1,4 +1,4 @@
-#! usr/bin/env python
+#!/usr/bin/env python
 #import arp_spoofer
 import argparse
 import scapy.all as scapy
